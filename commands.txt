@@ -1,0 +1,8 @@
+export GOOGLE_APPLICATION_CREDENTIALS="C:\\Users\\T929417\\Documents\\Training\\Terraform\\gcp-key-terraform.json"
+
+terraform init
+terraform validate
+terraform plan -out gcp.tfplan
+terraform apply "gcp.tfplan"
+terraform show
+terraform destroy
