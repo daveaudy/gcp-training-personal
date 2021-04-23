@@ -7,8 +7,6 @@
 # personal project
 # export GOOGLE_APPLICATION_CREDENTIALS="C:\\Users\\T929417\\Documents\\Training\\Terraform\\personal-gcp.json"
 provider "google" {
-
-  credentials = "C:\\Users\\T929417\\Documents\\Training\\Terraform\\personal-gcp.json"
   project     = var.project_id
   region      = var.region
   zone        = var.zone
